@@ -32,7 +32,7 @@ public class SwaggerConfig {
     private ApiInfo metaInfo() {
 
         ApiInfo apiInfo = new ApiInfo(
-                "Cars Rent",
+                "Car Rental",
                 "API REST para aluguel de veículos.",
                 "1.0",
                 "Terms of Service",
