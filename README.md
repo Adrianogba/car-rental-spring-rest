@@ -29,6 +29,11 @@ Caso venha a utilizar outro banco será necessário adicionar o Driver do mesmo 
 
 Agora aguarde sua IDE baixar as dependencias ou execute o mvn spring-boot:run caso tenha configurado o Maven separadamente.
 
+### Regras de reserva e aluguel
+- Não é possível alugar um veículo que já esteja reservado
+- Não é possível reservar um veículo que já esteja alugado
+- Não é possível alugar ou reservar (multuamente excludentes) mais de um veículo
+- Não é possível alugar ou reservar um veículo por mais de um ano
 
 ### Rotas
 Estas são as rodas para uso deste webservice:
